@@ -1,0 +1,28 @@
+.google_button{
+    padding:1rem 1.5rem;
+    font-size:1rem;
+    font-weight: bold;
+    background-color:#D5463A;
+    outline:none;
+    border:none;
+    cursor:pointer;
+    color:white;
+    margin-top:1.5rem;
+    border-radius: 10px;
+    transition: font-size 0.3s ease;
+  }
+  .google_button:hover{
+    background-color: #f44336;
+    font-size: 1.1rem;
+  }
+  .main_section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    height:500px;
+  }
+  .main_heading{
+    font-size:1.2rem;
+  }  

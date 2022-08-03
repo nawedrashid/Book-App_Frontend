@@ -1,0 +1,39 @@
+.search_book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .search_heading {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  .input_section {
+    display: flex;
+    align-items: center;
+  }
+  .input_field {
+    padding: 0.6rem;
+    font-size: 1rem;
+    outline: none;
+    border: solid 2px #d5463a;
+    border-radius: 5px;
+  }
+  .search_btn {
+    padding: 0.7rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #d5463a;
+    transition: background-color 0.5s ease;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  .search_btn:hover {
+      color: #d5463a;
+      background-color: white;
+      border: solid 2px #d5463a;
+      padding: 0.6rem;
+  }
