@@ -12,8 +12,8 @@ const Navigation = () => {
             <span className="title">Book App</span>
             <ul className="list">
                 <li className="Profile">
-                    <img className="avatar" src="https://dlscenter.com/wp-content/uploads/2017/06/manchester-united-kits-and-logo.jpg" alt="" />
-                    <div className="username">Username</div>
+                    {/* <img className="avatar" src="https://dlscenter.com/wp-content/uploads/2017/06/manchester-united-kits-and-logo.jpg" alt="" /> */}
+                    {/* <div className="username">Username</div> */}
                 </li>
                 <li className="logout" onClick={logout}>Logout</li>
             </ul>
